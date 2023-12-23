@@ -1,0 +1,34 @@
+npm init
+
+/*
+Press ^C at any time to quit.
+package name: (hardhat) hardhat-testing
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: vishwa
+license: (ISC)
+About to write to C:\Users\ASUS\Desktop\projects\hardhat\package.json:
+
+{
+  "name": "hardhat-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vishwa",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+*/
+
+npm install --save-dev hardhat
+npx hardhat
+ npm install --save-dev "hardhat@^2.17.2" "@nomicfoundation/hardhat-toolbox@^3.0.0"
